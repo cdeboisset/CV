@@ -39,7 +39,12 @@
 }
 
 
-
+.navbar-transparent .navbar-brand, .navbar-transparent .navbar-nav > li > a {
+    padding-left: 15px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
 #background-global {background-color: rgb(37,40,39);
 					margin: 0px;
 					width: 100%;
