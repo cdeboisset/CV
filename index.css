@@ -174,8 +174,16 @@ ul
   font-family: "open+sans", sans-serif;
   color: #eee9dc;
   background: #F24856;
+  margin-bottom: 0px;
 }
 
+h1 {
+  margin: 3em 0 0 0;
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 h2 {
   margin: 3em 0 0 0;
@@ -191,6 +199,25 @@ h3 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+h4 {
+  padding-top: 100px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 0px;
+}
+
+h5 {font-weight: 300; 
+	margin-top: 50px;
+	font-family: "open+sans", sans-serif;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: black;
+}
+
 
 /* -------------------------------------
  * timeline
@@ -231,6 +258,8 @@ h3 {
   position: absolute;
 }
 
+
+
 .circle-2 {
   margin-top: -10px;
   top: 50%;
@@ -268,12 +297,22 @@ h3 {
   top: 50%;
   margin-top: -20px;
 }
+
+
 .content:after {
   border-right-color: #48b379;
   border-width: 17px;
   top: 50%;
   margin-top: -17px;
 }
+
+.content-2:after {
+  border-right-color: #F24856;
+  border-width: 17px;
+  top: 50%;
+  margin-top: -17px;
+}
+
 .content p {
   max-height: 0;
   color: transparent;
@@ -282,6 +321,7 @@ h3 {
   hyphens: auto;
   overflow: hidden;
 }
+
 
 label {
   font-size: 1.3em;
@@ -377,9 +417,155 @@ label:hover {
   }
 }
 
+a{ color: white;
+		}
+
+#skills{ width: 100%;
+	height: 900px;
+	background-color: #F6F6F6;
+	margin-top: 0px;
+	padding-left: 41.1px;
+	padding-right: 41.1px;
+
+}
 
 
+body { background: #E9E5E2 ; }
 
+#skill { 
+	list-style: none;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 296px;
+	margin: 10px auto 0;
+	position: relative;
+	line-height: 2em;
+	padding: 30px 0;
+}
+
+#skill li { 
+	margin-bottom:50px; 
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+	background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+	height:20px; 
+	border-radius:10px; 
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
+}
+
+#skill li h3 { 
+	position:relative; 
+	top:-25px;
+}
+
+.bar { 
+	height:18px; 
+	margin:1px 2px;  
+	position:absolute;
+	border-radius:10px;
+	-moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+	-webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;	 
+	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
+}
+
+.graphic-design {
+	width:90%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #f674a4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+	background-image: -o-linear-gradient(top, #f674a4, #e06995);
+	background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.html-css {
+	width:95%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #f0bb4b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.jquery {
+	width:100%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #a1ce5b;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+	background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+	background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+
+.indesign {
+	width:40%;
+	-moz-animation: indesign 2s ease-out;
+	-webkit-animation:indesign 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+}
+
+
+.wordpress {
+	width:35%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-color: #66b3cc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+	background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+	background-image: linear-gradient(top, #66b3cc, #5da3ba)	
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width: 90%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:95%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:100%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:35%;}  }
+@-moz-keyframes indesign   { 0%  { width:0px;} 100%{ width:40%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:95%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:100%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:35%;}  }
+@-webkit-keyframes indesign   { 0%  { width:0px;} 100%{ width:40%;}  }
+
+
+#competence-block {background-color: #BABABA;
+	height: 100%
+
+}
+
+#competence-title { color: white; }
+
+#competence-block { color: white; 
+font-size: 20px;}
+
+#mes-competences-title { margin-bottom: 90px; }
+
+#bullet-point{ padding-left: 100px; }
 
 
 
