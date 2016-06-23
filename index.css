@@ -416,7 +416,7 @@ a{ color: white;
 		}
 
 #skills{ width: 100%;
-	height: 900px;
+	height: auto;
 	background-color: #F6F6F6;
 	margin-top: 0px;
 	padding-top: 0px;
@@ -564,5 +564,42 @@ font-size: 20px;}
 #bullet-point{ padding-left: 100px; }
 
 
+.row {margin-bottom: 0px;
 
+}
+
+
+
+#interet { background-color: #4ECAED;
+            width: 100%; 
+            height: auto;
+            margin : 0px;
+            padding-bottom: 150px;
+}
+
+#interet-title {
+  color: white;
+  margin: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.carre{
+  width:100px;
+  height:100px;
+  background:rgba(0,0,0,0);
+  border : solid white 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+
+#guitare: { border : solid white 5px;
+  border-radius: 100%;
+ }
+
+.text-interet { text-align: center;
+                color: rgba(0,0,0,0); }
+.text-interet:hover { text-align: center;
+                color: white; }
 
