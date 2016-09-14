@@ -61,6 +61,8 @@
 			background-color: white;
 			border-top-left-radius: 5%;
 			border-top-right-radius: 5%;
+			margin-left: 20%;
+			margin-right: 20%;
 			margin-top: 50px;
 			padding-right: 30px;
 			padding-left: 30px;
@@ -98,11 +100,10 @@
 .btn-rose:hover {background-color:rgb(209,63,74);
 				border:rgb(186,56,66);}
 
-.col-md-6 { 
-			margin-right: 0px;  
-      padding: 0px;}
+.col-md-4 { 
+			margin-right: 0px;  }
 
-
+.col-md-8 { }
 
 
 #background {background:url('back.jpg') no-repeat;
@@ -599,15 +600,13 @@ margin: 0px;}
 .carre {border-radius: 100%;
   width:120px;
   height:120px;
-  margin-left: 10px;
+  margin-left: 40px;
   margin-right: 0px;
     border: solid white 5px;
-    padding: 0px;
 
 
     }
  
- .col-md-2 {padding: 0px;}
 
 #guitare: { border : solid white 5px;
   border-radius: 100%;
